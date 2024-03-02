@@ -1,0 +1,65 @@
+body{
+    background:pink;
+}
+
+.containor{
+    width: 380px;
+    height: 500px;
+    background-color: pink;
+    text-align: center;
+    margin-left: 30%;
+    background-size: cover;
+}
+.fname{
+    width:120px;
+    height: 26px;
+    margin-top: 22px;
+}
+.lname{
+    width:130px;
+    height: 26px;
+    margin-top: 22px;
+}
+.input .inpt{
+    width:300px;
+    height: 26px;
+    margin-top: 22px;
+}
+
+.fnm{
+    display:flex;
+    margin-left: 23px;
+    margin-top: 22px;
+}
+.input i{
+    padding: 6px;
+    border:1px solid grey;
+    height: 18px;
+    margin-top: 22px;
+    border-right: none;
+}
+.gender{
+    margin:22px;
+    font-size:24px;
+    margin-right: 142px;
+}
+button{
+    width:336px;
+    height:33px;
+    border:none;
+    color:white;
+    background-color: rgb(255,187,0);
+    font-size: 18px;
+    margin-top: 22px;
+}
+button:hover{
+    background-color: transparent;
+    color: rgb(255,187,0);
+    border:2px solid rgb(255,187,0);
+    border-radius: 10px;
+    cursor:pointer;
+}
+.containor h1{
+font-size: 33px;
+padding:17px;
+}
